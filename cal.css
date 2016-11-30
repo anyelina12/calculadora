@@ -1,0 +1,108 @@
+html{
+	width: 100%;
+	height: 100%;
+	
+}
+
+
+
+#contenedor{
+	width: 40%;
+	height:50%;
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid #FF0080;
+	background-image: url("./Sin%20t%C3%ADtulo.png");
+
+
+}
+#resultado{
+	width: 20%;
+	height: 5%;
+	border:2px gray solid;
+	flex-direction: center;
+	display: flex;	
+	align-self: flex-start;
+	
+}
+
+#res{
+	font-size: 30px;
+	width: 100%;
+	height:20%;
+	
+	
+}
+
+#numeros{
+	width: 15%;
+	height: 15%;
+	border:2px #FF0080 solid;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+	justify-content: space-around;
+}
+
+/*.num{
+	width: 50%;
+	height: 50%;
+	border:2px black solid;
+	font-size: 20px;
+	font-family: cursive;
+	cursor:pointer;
+	flex-direction: wrap;
+}
+ */
+#operaciones{
+	width: 10%;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	align-content: space-around;
+	justify-content: space-around;
+	font-size: 100%;
+
+	}
+	
+body{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	background-image: url("./estrellas.jpg");
+
+}
+
+
+#contenedor > #numeros{
+	width: 48%;
+	height: 60%;
+	border:2px #FF0080 solid;
+}
+#numeros > div{
+	width: 20%;
+	height: 20%;
+	border:2px gray solid;
+	display: flex;
+	justify-content: center;
+	border-radius: 5%;
+
+}
+#contenedor > #operaciones{
+	width: 48%;
+	height: 60%;
+	border:2px #FF0080 solid;
+	display: flex;
+	flex-wrap: wrap;
+}
+#operaciones > div{
+	width: 20%;
+	height: 20%;
+	border:2px gray solid;
+	display: flex;
+	justify-content: center;
+	border-radius: 5%;
+
+}
